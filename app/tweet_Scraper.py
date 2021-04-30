@@ -11,10 +11,10 @@ import tweepy
 
 class Import_tweet_sentiment:
 
-    consumer_key="3Y48BcedbNpK0ShhnJgLfY6d1"
-    consumer_secret="U3oUzM2vzqM4jHFVyffDYJdyAUrKzbRMdqiJZSXSc9goGO2ZoK"
-    access_token="2555973745-pahK2Jnvazm2aHxRqO0HCJB2F6uSgaaXqWJM9UQ"
-    access_token_secret="eCq2G42fVjtxAL3IxZxKZ8VQP8Ghk6sQ2sTYGHTOY4dyN"
+    consumer_key="ENTER CONSUMER KEY HERE"
+    consumer_secret="ENTER CONSUMER SECRET KEY HERE"
+    access_token="ENTER ACCESS TOKEN HERE"
+    access_token_secret="ENTER ACCESS TOKEN SECRET KEY HERE"
 
     print("Connection to Twitter established..!")
 
