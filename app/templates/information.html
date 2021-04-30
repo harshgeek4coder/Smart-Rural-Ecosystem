@@ -8,8 +8,17 @@
 	      <h1 class="is-size-1 has-text-weight-bold has-text-dark">
 	        <i class="fas fa-angle-double-right"></i>
 	        Welcome!
-	      </h1>
+	      
+		  <button style="float: right;" class="button is-large is-warning">
+			<div>
+				<a href="{{ url_for('signuppage') }}" class="has-text-dark">
+					<i class="fas fa-poll"></i>  <strong>Sign Up</strong>
+				</a>
+			</div>
+		</button>
+	</h1>
 	  </div>
+
 	</section>
 	<div class="columns" style="margin-top: 10px;">
 		<div class="column is-half">
@@ -22,21 +31,82 @@
 						</div>
 	        </article>
 	      </div>
-	      <div class="column is-3 is-offset-2" style="margin-top: 127px;">
-	      	<button class="button is-large is-warning">
+
+	      <div class="column is-half">	  
+	
+			  
+
+			<button class="button is-large is-danger is-fullwidth">
+
+				<div class="is-size-3">
+					<a href="{{ url_for('jobs_updates') }}" class="has-text-dark">
+						<i class="fas fa-poll"></i>  <strong>Main Menu</strong>
+					</a>
+				</div>
+			</button>
+			
+
+
+            
+			<div class="column is-4 is-offset-2  ">
+
+			<button class="button is-large is-warning ">
+
+				<div>
+					<a href="{{ url_for('jobs_updates') }}" class="has-text-dark">
+						<i class="fas fa-poll"></i>  <strong>Find Jobs</strong>
+					</a>
+				</div>
+			</button>
+
+			<button class="button is-large is-warning" style="margin-top: 10px;">  
+				<div>
+					<a href="{{ url_for('crop_analysis') }}" class="has-text-dark">
+						<i class="fas fa-poll"></i>  <strong>Crop Analysis</strong>
+					</a>
+				</div>
+			</button>
+
+			<br>
+	      	<button class="button is-large is-warning" style="margin-top: 10px;">
 	      		<div>
-	      			<a href="{{ url_for('signuppage') }}" class="has-text-dark">
-	      				<i class="fas fa-poll"></i>  <strong>Sign Up</strong>
+	      			<a href="{{ url_for('tweet_updates') }}" class="has-text-dark">
+	      				<i class="fas fa-poll"></i>  <strong>Tweets Update</strong>
 	      			</a>
 	      		</div>
 	      	</button>
-	      </div>
+
+	      	<button class="button is-large is-warning" style="margin-top: 10px;">
+				<div>
+					<a href="{{ url_for('crop_production_estimate') }}" class="has-text-dark">
+						<i class="fas fa-poll"></i>  <strong>Crop Production Estimate</strong>
+					</a>
+				</div>
+			</button>
+
+			<button class="button is-large is-warning" style="margin-top: 10px;">
+				<div>
+					<a href="{{ url_for('medical_consult') }}" class="has-text-dark">
+						<i class="fas fa-poll"></i>  <strong>Disease Prediction / E-Consult</strong>
+					</a>
+				</div>
+			</button>
+			
+	
+
+		</div>
+		
+
+
+
+		</div>
+
 	  </div>
 	<div class="columns" style="margin-top: 10px;">
 		<div class="column is-4 is-offset-2" style="margin-top: 90px;">
       	<button class="button is-large is-primary">
       		<div>
-      			<a href="https://github.com/" class="has-text-dark">
+      			<a href="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem" class="has-text-dark">
       				<i class="fab fa-github"></i> <strong>Goto Github</strong>
       			</a>
       		</div>

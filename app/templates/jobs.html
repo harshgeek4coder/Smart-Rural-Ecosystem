@@ -1,0 +1,61 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+<div class="container" style="margin-top: 20px;">
+
+	<section class="hero is-primary">
+	  <div class="hero-body">
+	      <h1 class="is-size-1 has-text-weight-bold has-text-dark">
+	        <i class="fas fa-angle-double-right"></i>
+	        Welcome to Jobs Updates!
+	      </h1>
+	  </div>
+	</section>
+    
+    <div>
+        <form method="POST">
+            <p><input type="text"  placeholder="job_title"  name="job_title" margin-top=5px width=50 height=120 >
+                <input type="text"  placeholder="job_location"  name="job_location" margin-top=5px width=50 height=120 >
+
+                <input type="submit" button class="button is-warning">
+                    <div>
+                        
+                                                
+                    </div>
+                </button>
+            
+        </form>
+    </div>
+
+	<div class="rows" style="margin-top: 10px;">
+        <h2 class="is-size-3 has-text-weight-bold has-text-dark">Total {{num_listings}} Jobs Found . Jobs Updates : </h2>
+
+
+
+        {% for i in res %}
+            <h3 class="has-text-weight-bold has-text-dark">Job-Title : <u>{{i[0]}}</u></h3>
+            <h3 class="has-text-weight-bold has-text-dark">Company : {{i[1]}}</h3>
+            <h3 class="has-text-weight-bold has-text-dark">Link To Apply : <a href="{{i[2]}}" target="_blank" >{{i[2]}}</a></h3>
+            <h3 class="has-text-weight-bold has-text-dark">Date Listed : {{i[3]}}</h3>
+            <br>
+        {% endfor %}
+
+    </div>
+
+
+	<div class="columns" style="margin-top: 10px;">
+		<div class="column is-4 is-offset-2" style="margin-top: 90px;">
+      	<button class="button is-large is-primary">
+      		<div>
+      			<a href="https://github.com/" class="has-text-dark">
+      				<i class="fab fa-github"></i> <strong>Goto Github</strong>
+      			</a>
+      		</div>
+      	</button>
+      </div>
+	</div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,138 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+<div class="container" style="margin-top: 20px;">
+
+	<section class="hero is-primary">
+	  <div class="hero-body">
+	      <h1 class="is-size-1 has-text-weight-bold has-text-dark">
+	        <i class="fas fa-angle-double-right"></i>
+	        Welcome to Crop Estimate Production!
+	      </h1>
+	  </div>
+	</section>
+
+    <div class='content'>
+        <h2> Available Crops Are : </h2>
+        <table>
+            <tbody>            
+                <tr>
+                    <td>Arhar</td>
+                    <td>Bajra</td>
+                    <td>Copra</td>
+                    <td>Cotton</td>
+                    <td>Sesamum</td>
+                    <td>Wheat</td>
+                </tr>
+
+                <tr>
+                    <td>Gram</td>
+                    <td>Groundnut</td>
+                    <td>Jowar</td>
+                    <td>Maize</td>
+                    <td>Mansoor</td>
+                    <td>Sunflower</td>
+                </tr>
+
+                <tr>
+                    <td>Niger</td>
+                    <td>Paddy</td>
+                    <td>Ragi</td>
+                    <td>Sugarcane</td>
+                    <td>Soyabean</td>
+                    <td>Urad</td>
+                </tr>
+
+                </tbody>
+                </table>
+
+        
+    </div>
+
+    <div class='content'>        
+        
+        <div  class="columns">
+        <div class='column'>
+            <h2> Top Performing Crops  : </h2>
+            {% for i in topfive %}
+
+            <h7>Crop : {{i[0]}}</h7>
+            <h7> -> Price : {{i[1]}}</h7>
+
+            <br>
+            {% endfor %}
+
+            
+        </div>
+
+        <div class='column'>
+            <h2> Low Performing Crops  : </h2>
+            {% for i in bottomfive %}
+
+            <h7>Crop : {{i[0]}}</h7>
+            <h7> -> Price : {{i[1]}}</h7>
+
+            <br>
+            {% endfor %}
+        </div>
+    </div></div>
+    
+    <div>
+        <form method="POST">
+            <div class="rows">
+            <h2 class="is-size-3 has-text-weight-bold has-text-dark">Enter Your Current Area's Average Temprature Here: </h2>
+
+            <input type="text"  placeholder="Enter Temprature"  name="temp" margin-top=5px width=50 height=120 > 
+
+            </div>
+
+            <div class="rows">
+                <h2 class="is-size-3 has-text-weight-bold has-text-dark">Enter Your Current Land's Average Area Here: </h2>
+                <input type="text"  placeholder="Enter Area"  name="area" margin-top=5px width=50 height=120 >   
+                
+            </div>
+
+                <input type="submit" button class="button is-warning">
+                    <div>
+                        
+                                                
+                    </div>
+                </button>
+            
+        </form>
+    </div>
+
+	<div class="container">
+        <h2 class="is-size-3 has-text-weight-bold has-text-dark">Get your full Crop Production Estimate Here: </h2>
+    <div class="rows" style="margin-top: 10px;">       
+
+        
+        <h5 class="has-text-weight-bold has-text-dark">Possible Yield Production of Crop :{{possible_prod}} </h5><br>
+
+        {% if possible_prod %}
+        <h5 class="has-text-weight-bold has-text-dark">Estimated Status Analysis :{{st}} </h5><br>
+        {% endif %}
+
+       
+        
+        </div>
+
+
+        
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+{% endblock %}
