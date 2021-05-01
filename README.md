@@ -13,7 +13,7 @@ python run.py
 ## Demo:
 
 #### Main Landing Page:
-<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/Main%20Landing.png">
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/main%20landing%20page.png">
 <br>
 
 #### Sign Up :
@@ -26,4 +26,29 @@ python run.py
 
 #### User DashBoard :
 <img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/User%20Dashboard.png">
+<br>
+
+### Crop Analysis :
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/crop%20analysis%201.png">
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/crop%20analysis%202.png">
+<br>
+
+### Crop Yield Forecast:
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/crop%20yield%20Forecast.png">
+<br>
+
+### Job Updates :
+
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/job%20updates.png">
+<br>
+
+### Govt. Twitter Updates :
+
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/tweets%20update.png">
+<br>
+
+### Disease Prediction / E-Meidcal Consult :
+
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/disease%201.png">
+<img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/disease%202.png">
 <br>
