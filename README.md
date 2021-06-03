@@ -16,12 +16,12 @@ Our Solution Smart Rural Ecosystem aims to dissolve the unwanted interventions o
 
 
 ## Functionalities of our Project: 
-- Registration/Login : Users has to register/login themselves in order to use our functionalities of our ecosystem.
-- Jobs Vacancy : Here a user can find a suitable job as per his owned skills over online.
-- Twitter Updates : Here , user can retrieve Latest Government updated via Twitter API.
-- Crop Analysis : Here user can obtain the entire crop profile for an input crop name, details, soil conditions required, exported and imported countries, previous and current     trends of crop and so on.
-- Crop Yield Forecast : Here user will have to input certain details in order to get a predicted Estimated crop yield distribution and estimated crop.
-- Disease Prediction/E-consultation : Here user will have to input certain medical symptoms they are facing  and the software will process those symptoms and will provide       estimated precautions and will help them connect with relevant doctor for e-consultation.
+- <b>Registration/Login</b> : Users has to register/login themselves in order to use our functionalities of our ecosystem.
+- <b>Jobs Vacancy</b> : Here a user can find a suitable job as per his owned skills over online.
+- <b>Twitter Updates</b> : Here , user can retrieve Latest Government updated via Twitter API.
+- <b>Crop Analysis</b> : Here user can obtain the entire crop profile for an input crop name, details, soil conditions required, exported and imported countries, previous and         current trends of crop and so on.
+- <b>Crop Yield Forecast</b> : Here user will have to input certain details in order to get a predicted Estimated crop yield distribution and estimated crop.
+- <b>Disease Prediction/E-consultation</b> : Here user will have to input certain medical symptoms they are facing  and the software will process those symptoms and will provide       estimated precautions and will help them connect with relevant doctor for e-consultation.
 
 
 
