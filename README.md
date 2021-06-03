@@ -1,6 +1,30 @@
 # Smart-Rural-Ecosystem
 Project repository for course 18CSC206J - Software Engineering and Project Management [SEPM]
 
+## About :
+Our Solution Smart Rural Ecosystem aims to dissolve the unwanted interventions of middle-men in their daily livelihood, which depends on day to day heavy tasks they perform and could not get profit they actually deserve. Using appropriate tech stack and dependencies, we would try to propose an ecosystem, which if adopted, could be result in getting achievements and benefit the people living in rural areas.
+
+## Motivation, Why?
+
+- Starting their own business is often troublesome due to lack of buyers.
+- Finding new jobs in the city is often a tedious task for rural people.
+- Latest news from the national leaders or what’s actually going on often fails to reach the rural people.
+- Misinformation often results in false news which spread arounds like wildfire.
+- Language barriers for the natives using different softwares and apps.
+- Lack of Medical Services on Time 
+
+
+
+## Functionalities of our Project: 
+- Registration/Login : Users has to register/login themselves in order to use our functionalities of our ecosystem.
+- Jobs Vacancy : Here a user can find a suitable job as per his owned skills over online.
+- Twitter Updates : Here , user can retrieve Latest Government updated via Twitter API.
+- Crop Analysis : Here user can obtain the entire crop profile for an input crop name, details, soil conditions required, exported and imported countries, previous and current     trends of crop and so on.
+- Crop Yield Forecast : Here user will have to input certain details in order to get a predicted Estimated crop yield distribution and estimated crop.
+- Disease Prediction/E-consultation : Here user will have to input certain medical symptoms they are facing  and the software will process those symptoms and will provide       estimated precautions and will help them connect with relevant doctor for e-consultation.
+
+
+
 ## How To Use :
 - Clone the repository :
 ```
