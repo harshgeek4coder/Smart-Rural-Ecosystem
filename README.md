@@ -76,3 +76,7 @@ python run.py
 <img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/disease%201.png">
 <img src="https://github.com/harshgeek4coder/Smart-Rural-Ecosystem/blob/main/Images/disease%202.png">
 <br>
+
+TEAM MEMBERS:
+Harsh Sharma (RA1911027010085)
+Harsh Kumar Sharma (RA1911027010082)
